@@ -39,22 +39,30 @@ int power(int num, int exp) {
 
 }
 
-
-int main() {
-
+void testPower() {
+    // variables for receiving input from user
     int testBase = 0;
     int testPower = 0;
 
+    // prompt user for base and input value
     cout << "Enter a base: ";
     cin >> testBase;
+    // prompt user for power and input value
     cout << "Enter a power: ";
     cin >> testPower;
 
+    // for whitespacing
     cout << endl;
 
+    // display output
     cout << testBase << " to the " << testPower << " is ";
     cout << power(testBase, testPower) << endl;
+}
 
+int main() {
+
+    // run function to test power
+    testPower();
 
     return 0;
 }
