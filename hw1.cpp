@@ -1,6 +1,8 @@
 #include <iostream>
 
-using std::cout, std::cin, std::endl;
+using std::cout;
+using std::cin;
+using std::endl;
 
 // Function:    power
 // Purpose:     computes num to the exp power
